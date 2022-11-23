@@ -1,0 +1,43 @@
+/*  reset - Eliminação de estilos bases do projeto */
+
+* {
+    margin:  0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+boby {
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4 , h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    width: 400px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 400px;
+
+}
+
+/* Page header */
+
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+
+}

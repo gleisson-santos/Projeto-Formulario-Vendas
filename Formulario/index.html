@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Cadastro</title>
+    <title>Venda de veiculos</title>
 
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <h1>
-        Testando
-    </h1>
-
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu veículo para vender mais rápido!</h3>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="form-header">
+            <p>Formulário</p>
+        </div>
+        <form>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu carro!</h1>
+                <p>Descreva as características e marque os opcionais que ele possue</p>
+                <div class="box-input">
+                    <label for="tittle">Título do anúncio <span class="required-field">*</span></label>
+                    <input type="text" name="tittle" id="tittle" class="block"
+                        placeholder="Um título para anunciar seu carro" minlength="1" maxlength="30" required>
+                </div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
