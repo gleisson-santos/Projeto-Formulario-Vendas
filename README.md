@@ -3,6 +3,6 @@
 
 
 ```python
-image.png
+
 
 ```
