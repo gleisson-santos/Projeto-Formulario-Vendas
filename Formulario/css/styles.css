@@ -1,25 +1,11 @@
 
-/*  reset - Eliminação de estilos bases do projeto */
-
-* {
-    margin:  0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-boby {
-    background-color: #f0ebf8;
-}
-
-h1, h2, h3, h4 , h5 {
-
 /* reset  - eliminação de estilos base */
 
 * {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
+} 
 
 body {
     background-color: #f0ebf8;
@@ -32,28 +18,24 @@ h1, h2, h3, h4, h5 {
 
 p, label {
     color: #444;
-}
+} 
 
 input {
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
-    width: 400px;
-}
+} 
 
 input[type="text"],
 input[type="number"],
 input[type="date"],
-input[type="file"] {
+input[type="file"],
+textarea {
     width: 400px;
 }
 
 /* Page header */
 
-input[type="files"],
-textarea {
-    width: 400px;
-}
 
 textarea {
     padding: 10px 5px;
@@ -62,7 +44,7 @@ textarea {
 
 /*  Page header */
 
-.header {
+ .header {
     height: 160px;
     padding: 20px;
     background-color: #673ab7;
@@ -70,14 +52,14 @@ textarea {
 
 .header h3 {
     color: #ffff;
-    border-bottom: 1px solid #fff;
+    margin-top: 0;
+    /* border-bottom: 1px solid #fff;
     margin: 0 auto;
     width: 50%;
-    margin-top: 0;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.5rem;
-}
+    font-size: 1.5rem; */
+} 
 
 /*  form container */
 
@@ -87,7 +69,7 @@ textarea {
     margin: 0 auto;
     position: relative;
     top: -62px;
-}
+} 
 
 /* form header */
 
@@ -108,9 +90,10 @@ textarea {
 }
 
 /* form body */
+
 .form-body {
     padding: 30px;
-}
+} 
 
 .form-title {
     margin-bottom: 15px;
@@ -130,11 +113,11 @@ textarea {
 
 .block {
     display: block;
-}
+} 
 
 .optional-box {
     display: inline-block;
-    margin: 0 30px 30px 0;
+    margin: 05px 30px 30px 05px;
 }
 
 .optional-list li {
@@ -146,7 +129,7 @@ textarea {
     margin-bottom: 15px;
 }
 
-.btn-submit {
+ .btn-submit {
     background-color: #673ab7;
     color: #fff;
     border: 2px solid transparent;
@@ -161,4 +144,4 @@ textarea {
     background-color: #fff;
     border-color: #673ab7;
     color: #673ab7;
-}
+}   
