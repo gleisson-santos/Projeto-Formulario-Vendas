@@ -47,7 +47,13 @@ textarea {
 
 .header h3 {
     color: #ffff;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    width: 50%;
     margin-top: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 
 /*  form container */
