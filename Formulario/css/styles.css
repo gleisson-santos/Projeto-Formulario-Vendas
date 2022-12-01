@@ -32,6 +32,8 @@ input[type="date"],
 input[type="file"],
 textarea {
     width: 500px;
+   color: #fff;
+   font-weight: ;
 }
 
 /* Page header */
